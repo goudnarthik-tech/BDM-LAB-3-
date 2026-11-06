@@ -137,17 +137,21 @@ SELECT COUNT(*) FROM book;
 ![alt text](image-3.png)
 
 4.	Validate the POST body: reject missing title, author or a non-numeric price with 400 and a clear JSON message.
-![alt text](image-4.png)
+<img width="1917" height="545" alt="image" src="https://github.com/user-attachments/assets/166ad0a0-3517-4a43-bf8f-676ceb0eec42" />
+
 
 
 5.	Return 201 after create, 200 after update and delete, and 404 when the id does not exist.
-![alt text](image-5.png)
+<img width="1917" height="437" alt="image" src="https://github.com/user-attachments/assets/5e9cbdae-a8d3-4681-bc37-c24928f2ffed" />
+
+
 
 6.	Make the response format consistent, for example { "message": "..." } for errors.
-![alt text](image-6.png)
+<img width="1917" height="668" alt="image" src="https://github.com/user-attachments/assets/a4bc4766-2a07-404b-8460-1e9efa5b8d13" />
+
 
 7.	Debugging exercise: the faculty hands out a broken version of the project. Students fix a port conflict (EADDRINUSE), a wrong import path, a table-name typo (no such table) and a missing await.
-![alt text](image-7.png)
+<img width="1917" height="477" alt="image" src="https://github.com/user-attachments/assets/70505e75-f51f-4141-9809-847ddaa5730c" />
 
 ## Notes: problems faced and solutions
 - Search and price filters are built from conditional SQL clauses with parameter arrays.
