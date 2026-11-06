@@ -6,7 +6,7 @@
 **Course:** Backend Development Fundamentals · Year II Term II
 
 ## Live link
-Not deployed. Run locally using the instructions below. Replace this line with the public URL if you deploy the server.
+https://bdm-lab-3.onrender.com
 
 ## Objective
 Upgrade the Lab 2 Express and SQLite application into a REST API with search, sorting, pagination, price filtering, validation, correct status codes, and debugging practice.
